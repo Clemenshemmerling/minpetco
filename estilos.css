@@ -43,6 +43,10 @@ header .logo
 	margin: 0;
 	padding: 0;
 }
+header .bandera img
+{
+	width: 54px;
+}
 header .logo img 
 {
 	
