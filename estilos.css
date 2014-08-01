@@ -28,6 +28,10 @@ header
 	position: relative;
 	
 }
+header figure
+{
+	float: left;
+}
 header h1
 {
 	font-size: 2em;
