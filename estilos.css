@@ -11,13 +11,10 @@ body
 }
 footer
 {
+	color:rgba(255,255,255,0.3);
 	background: #001436;
-	padding: 1em;
-}
-footer p
-{
-	color: white;
 	text-align: center;
+	padding: 1em;
 }
 header
 {
@@ -79,4 +76,18 @@ nav ul li a
 {
 	display: block;
 	padding: 0.5em 0;
+	text-decoration: none;
+}
+.contenido
+{
+	background: white;
+	border-bottom: solid black;
+	margin: 1em;
+	overflow: hidden;
+}
+
+.contenido .tuberia
+{
+	float: left;
+	margin: 0 0.5em 0 0;
 }
