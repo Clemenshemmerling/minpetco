@@ -46,6 +46,7 @@ header .logo
 header .bandera img
 {
 	width: 54px;
+	border-radius: 50%;
 }
 header .logo img 
 {
