@@ -12,6 +12,15 @@ body
 
 
 }
+footer
+{
+	background: #001436;
+}
+footer p
+{
+	color: white;
+	text-align: center;
+}
 header
 {
 	background: white;
