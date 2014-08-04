@@ -94,11 +94,13 @@ nav ul li a
 	display: block;
 	padding: 0.5em 0;
 	text-decoration: none;
-	-webkit-transition:.4s;
+	-webkit-transition:0.2s;
 }
 nav ul li a:hover
 {
 	background: #BB2200;
+	text-shadow: rgba(0,0,0,0.5) 2px 5px 5px;
+	font-size: 1.05em;
 }
 .contenido
 {
@@ -112,4 +114,9 @@ nav ul li a:hover
 {
 	float: left;
 	margin: 0 0.5em 0 0;
+}
+.contenido .tuberia img
+{
+	border-radius: 1em;
+	max-width: 360px;
 }
