@@ -25,16 +25,15 @@ footer
 {
 	color:rgba(255,255,255,0.3);
 	background: #001436;
+	margin: 4em 0 0 0;
+	padding: 2em;
 	text-align: center;
-	padding: 1em;
 }
 header
 {
 	background: white;
 	overflow: hidden;
-	position: relative;
-
-	
+	position: relative;	
 }
 header figure
 {
@@ -100,13 +99,12 @@ nav ul li a:hover
 {
 	background: #BB2200;
 	text-shadow: rgba(0,0,0,0.5) 2px 5px 5px;
-	font-size: 1.05em;
 }
 .contenido
 {
 	background: white;
 	border-bottom: solid black;
-	margin: 1em;
+	margin: 1em 1em 1em 1em;
 	overflow: hidden;
 }
 
@@ -118,5 +116,12 @@ nav ul li a:hover
 .contenido .tuberia img
 {
 	border-radius: 1em;
-	max-width: 360px;
+	width: 300px;
+}
+@media screen and (min-width: 800px){
+	.contenido
+	{
+		border-radius: 0.5em;
+		margin: 1em 6em 1em 6em;
+	}
 }
